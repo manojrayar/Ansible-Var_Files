@@ -1,0 +1,5 @@
+---
+# tasks file for role3
+- name: Print variables from my_vars in role3
+  debug:
+    msg: "Username: {{ username }}, Password: {{ password }}"
